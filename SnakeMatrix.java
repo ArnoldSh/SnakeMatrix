@@ -107,7 +107,7 @@ public class SnakeMatrix {
     }
 
     public static void main(String[] args) {
-        printSnakeMatrix(makeSnakeMatrix(0));
+        printSnakeMatrix(makeSnakeMatrix(5));
     }
 
 }
