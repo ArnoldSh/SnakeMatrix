@@ -38,8 +38,8 @@ public class SnakeMatrix {
                 // записывыем в табличку и выполняем инкремент
                 snakeMatrix[index.getKey()][index.getValue()] = snakeValue++;
             }
+            
             // по окончанию сегмента меняем направления сдвига по циклу
-
             direction = direction.next();
 
         }
